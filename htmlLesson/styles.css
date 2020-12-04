@@ -1,0 +1,55 @@
+/* GENERAL SETUP */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+    background: linear-gradient(130deg, rgba(235, 217, 181, 1) 0%, rgba(236, 105, 164, 1) 50%, rgba(89, 232, 247, 1) 100%);
+}
+body {
+    height: 100vh;
+    width: 80vw;
+    margin: 0 auto;
+}
+/* HEADER LAYOUT */
+header {
+    margin-bottom: 10px;
+}
+
+header, nav, section, main, article, aside, footer {
+    background-color: rgba(255, 255, 255, .05);
+    padding: 1%;
+}
+
+nav{
+    height: 50px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    text-align: center;
+    flex: 1;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+/* MAIN LAYOUT */
+
+main{
+    display: flex;
+}
+
+section, article{
+    flex: 4;
+    /*section and article will take up 80% of the viewport (4/(4/) */
+}
+
+aside{
+    flex: 1;
+    /* aside will take up 20% of the viewport (1/(1+4)
+}
