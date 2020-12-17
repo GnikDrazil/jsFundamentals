@@ -1,0 +1,6 @@
+.jumbotron{
+    background: url("../assets/sky.jpg") center bottom;
+    background-size: cover;
+    height: 55vh;
+    margin-bottom: 0%;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Portfolio</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">SD</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- HEADER -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+            <h1 class="display-4">Simon DeCapua</h1>
+            <p class="lead">Web Developer</p>
+        </div>
+    </div>
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h1 style="text-align: center">Projects</h1>
+        <!-- total of 12 grids when working with bootstrap layout -->
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex odio perferendis minus, numquam
+                    laudantium obcaecati repellendus quaerat cumque in. Odit non voluptatem quisquam minus natus eos
+                    sapiente praesentium nihil quo, ratione possimus quibusdam. Ratione deserunt blanditiis libero
+                    dolore rerum illum qui omnis quas perspiciatis temporibus dolor, aperiam, eveniet quia quis.
+                    Cupiditate obcaecati earum maiores veritatis aliquam iusto vel, expedita vitae reiciendis sequi sint
+                    architecto provident eos! Doloremque totam ad iusto aliquid ducimus exercitationem, cumque, autem
+                    nisi, quam quia magni maiores amet necessitatibus voluptatem? In consequatur saepe, quibusdam ipsum
+                    doloribus cumque magni provident a nisi voluptatum dicta qui explicabo optio expedita?
+                </div>
+                <div class="col-4">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit odit dolore nostrum ut laudantium,
+                    totam, iure eligendi molestiae architecto sed minus odio eum assumenda nesciunt exercitationem velit
+                    obcaecati harum et qui. Fugit inventore porro, tempora voluptatem repellendus commodi rem neque unde
+                    vero corrupti blanditiis laboriosam quas ducimus expedita labore autem ipsam consectetur eveniet.
+                    Tempora iste, fugit inventore ipsam eveniet porro molestiae minus laborum perspiciatis illum at?
+                    Perspiciatis nisi adipisci dignissimos consequatur ratione, dolor nostrum nemo vitae, itaque quam
+                    nihil fugit quibusdam? Impedit ipsam quisquam dolor natus eum, voluptates excepturi dicta possimus
+                    ab, dolorum voluptatum ullam et veniam quidem velit consequuntur.
+                </div>
+                <div class="col-4">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus vel placeat doloremque animi ab
+                    suscipit ratione excepturi debitis nemo cum dicta consequuntur officia veniam enim incidunt nobis,
+                    provident adipisci amet deserunt? Natus id accusantium dolorem nobis placeat, ut adipisci
+                    praesentium sapiente magnam facilis quisquam, tempora cumque vel dolor dicta incidunt quia expedita
+                    iusto, tenetur temporibus earum reprehenderit ratione ad. Deleniti repudiandae quisquam
+                    reprehenderit ipsam accusantium! Numquam voluptatum laudantium ratione labore dolorem aliquam rem
+                    recusandae molestias enim quas eveniet cupiditate deserunt magni, expedita corrupti dolor reiciendis
+                    provident adipisci saepe culpa dolore. Accusamus perferendis voluptate laudantium magni, blanditiis
+                    aliquid unde debitis repudiandae.
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="container">
+        <br>
+        <br>
+        <h2 class="text-center text-uppercase">Contact Me</h2>
+        <div class="row">
+            <div class="col-12">
+                <form action="https://formspree.io/isonicsimon@gmail.com email" method="POST">
+                    <div class="control-group">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                                data-validation-required-message="Please enter your name" name="name">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                                data-validation-required-message="Please enter your email" name="_replyto">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                                data-validation-required-message="Please leave a message" name="message"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div id="success"></div>
+                        <button type="submit" class="btn btn-lg btn-black">
+                            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
